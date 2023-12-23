@@ -1,0 +1,18 @@
+databases:
+  - name: postgresql_recipes_app_staging-dev_instance
+    databaseName: recipes_app_development
+    user: recipes_app
+
+services:
+  - type: web
+    name: recipes-app
+    runtime: ruby
+    buildCommand: "./bin/render-build.sh"
+    startCommand: "bundle exec puma -C config/puma.rb"
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: postgresql_recipes_app_staging-dev_instance
+          property: connectionString
+      - key: RAILS_MASTER_KEY
+        sync: false
