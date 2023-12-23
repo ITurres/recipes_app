@@ -5,7 +5,7 @@ databases:
 
 services:
   - type: web
-    name: recipes-app
+    name: my-recipes
     runtime: ruby
     buildCommand: "./bin/render-build.sh"
     startCommand: "bundle exec puma -C config/puma.rb"
