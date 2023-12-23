@@ -2,13 +2,15 @@ databases:
   - name: postgresql_recipes_app_staging-dev_instance
     databaseName: recipes_app_development
     user: recipes_app
+    plan: free
 
 services:
   - type: web
     name: my-recipes
     runtime: ruby
+    plan: free
     buildCommand: "./bin/render-build.sh"
-    startCommand: "bundle exec puma -C config/puma.rb"
+    startCommand: "./bin/rails server"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
