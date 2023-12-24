@@ -134,21 +134,21 @@ Example commands:
 
 ```bash
   cd my-folder
-  git clone git@github.com:demesameneshoa/recipes-app.git
+  git clone git@github.com:ITurres/recipes_app.git
 ```
 
 - With HTTPS:
 
 ```bash
   cd my-folder
-  git clone https://github.com/demesameneshoa/recipes-app.git
+  git clone https://github.com/ITurres/recipes_app.git
 ```
 
 - With GitHub CLI:
 
 ```bash
   cd my-folder
-  gh repo clone demesameneshoa/recipes-app
+  gh repo clone ITurres/recipes_app
 ```
 
 ### Install <a name="install"></a>
@@ -156,7 +156,7 @@ Example commands:
 Go to the project directory:
 
 ```bash
- cd recipes-app
+ cd recipes_app
 ```
 
 Before running the program, verify that you have Ruby on Rails installed on your OS by running the following command:
@@ -246,7 +246,9 @@ To execute the tests, run the following command inside the project folder (root)
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/demesameneshoa/recipes-app/issues).
+Please note that this repository is a fork.
+Kindly open any new issues or feature requests on the [original repository](https://github.com/demesameneshoa/recipes-app/issues)
+to ensure that they are addressed appropriately.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -266,7 +268,7 @@ Give a ⭐ if you liked this project!
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I thank the **Code Reviewers** for their advice and time 🏆
+We thank the **Code Reviewers** for their advice and time 🏆
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
