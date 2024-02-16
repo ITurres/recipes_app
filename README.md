@@ -14,6 +14,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [🚀 Live Demo](#live-demo)
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -100,6 +101,16 @@
 #### Highlighted Gems
 
 - [Devise](https://github.com/heartcombo/devise/wiki)
+
+---
+
+<!-- * LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [My Recipes App - Live Demo Link](https://myrecipes-tsmw.onrender.com/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ---
 
